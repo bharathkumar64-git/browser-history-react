@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.navbar {
+  height: 80px;
+  background-color: #3367d6;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.app-logo {
+  width: 100px;
+  height: auto;
+}
+
+.search-container {
+  width: 500px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-color: #2850a7;
+  border-radius: 3px;
+}
+
+.search-icon {
+  width: 18px;
+  margin: 0 15px;
+}
+
+.search-input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: #ffffff;
+}
+
+.history-container {
+  padding: 30px 60px;
+}
+
+.history-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+  border-bottom: 1px solid #ececec;
+}
+
+.time-accessed {
+  width: 90px;
+  color: #475569;
+  font-size: 14px;
+}
+
+.domain-logo {
+  width: 30px;
+  height: 30px;
+  margin: 0 20px;
+}
+
+.history-details {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.title {
+  color: #475569;
+  font-weight: 500;
+}
+
+.domain-url {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.delete-button {
+  border: none;
+  background: transparent;
+  padding: 5px;
+}
+
+.delete-icon {
+  width: 20px;
+}
+
+.no-history {
+  text-align: center;
+  margin-top: 100px;
+  color: #64748b;
+  font-size: 18px;
+}
